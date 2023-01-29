@@ -1,0 +1,2 @@
+# Ignore all debian/ build files (except those that are forcefully checked in)
+debian/
