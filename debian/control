@@ -1,0 +1,22 @@
+Source: adaptation-sony-pdx206
+Maintainer: Peter Cai <peter@typeblog.net>
+Section: metapackages
+Priority: optional
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.5.0.3
+Vcs-Browser: https://github.com/PeterCxy/adaptation-sony-pdx206
+Vcs-Git: https://github.com/PeterCxy/adaptation-sony-pdx206.git
+
+Package: adaptation-sony-pdx206
+Architecture: all
+Depends: ${misc:Depends},
+         linux-bootimage-sony-pdx206,
+         adaptation-hybris-api30-phone,
+         adaptation-sony-pdx206-configs,
+Description: adapatation-sony-pdx206 - meta
+ Sony Xperia 5 II api30 adaptation metapackage
+
+Package: adaptation-sony-pdx206-configs
+Architecture: all
+Depends: ${misc:Depends},
+Description: Sony Xperia 5 II's specific adaptation configs
