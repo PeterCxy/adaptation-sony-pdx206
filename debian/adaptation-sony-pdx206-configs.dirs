@@ -1,2 +1,4 @@
 /etc/udev/rules.d
 /usr/lib/adaptation-sony-pdx206
+/mnt/idd
+/mnt/rca
